@@ -1,0 +1,25 @@
+{
+  "name": "to-do-backend",
+  "version": "1.0.0",
+  "description": "\"# to-do-list\" \r echo \"# to-do-list\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/Dhruvi-45/to-do-list.git\r git push -u origin main",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhruvi-45/to-do-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dhruvi-45/to-do-list/issues"
+  },
+  "homepage": "https://github.com/Dhruvi-45/to-do-list#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
