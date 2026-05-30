@@ -4,7 +4,9 @@
   "description": "\"# to-do-list\" \r echo \"# to-do-list\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/Dhruvi-45/to-do-list.git\r git push -u origin main",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
